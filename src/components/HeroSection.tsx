@@ -40,11 +40,12 @@ export const HeroSection = () => {
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left side - Text content */}
-          <div className="space-y-6 md:space-y-8 animate-slide-in-left text-center lg:text-left order-2 lg:order-1">
+          <div className="space-y-6 md:space-y-8 animate-slide-in-left text-center lg:text-left order-1 lg:order-1">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
-                <span className="text-gradient">Mekala</span>{" "}
-                <span className="text-white">Akhil</span>
+                
+                <span className="text-white">Hello!, I'm </span>
+                <span className="text-gradient">Mekala Akhil</span>{" "}
               </h1>
               <h2 className="text-xl sm:text-2xl lg:text-3xl text-neon-teal font-medium">
                 Web Developer | AI Enthusiast
@@ -82,11 +83,10 @@ export const HeroSection = () => {
               </Button>
             </div>
           </div>
-
           {/* Right side - Profile image and social handles */}
-          <div className="flex flex-col items-center animate-slide-in-right order-1 lg:order-2 space-y-6">
+          <div className="flex flex-col items-center animate-slide-in-right order-2 lg:order-2 space-y-6">
             {/* Profile Image */}
-            <div className="relative">
+            <div className="relative mt-16 lg:mt-0 sm:mt-8">
               <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-neon-teal via-neon-blue to-neon-purple p-1 animate-glow-pulse">
                 <div className="w-full h-full rounded-full bg-dark-bg flex items-center justify-center">
                   <div className="w-[95%] h-[95%] rounded-full bg-gradient-to-br from-gray-600 to-gray-800 flex items-center justify-center text-6xl sm:text-8xl text-gray-300">
