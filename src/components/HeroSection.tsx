@@ -11,7 +11,7 @@ export const HeroSection = () => {
   const downloadResume = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Path to your resume file in the public folder
+    link.href = 'https://drive.google.com/uc?export=download&id=1Zgs42eEldZWIYIbo1KrAWl9POGPSfhqC'; 
     link.download = 'Akhil_Mekala_Resume.pdf'; // Name for the downloaded file
     document.body.appendChild(link);
     link.click();
@@ -20,24 +20,19 @@ export const HeroSection = () => {
 
   const socialLinks = [{
     icon: Github,
-    href: "https://github.com",
+    href: "https://github.com/AkhilAshp",
     label: "GitHub",
     color: "hover:text-neon-blue"
   }, {
     icon: Linkedin,
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/akhil-mekala-jntu2k5/",
     label: "LinkedIn",
     color: "hover:text-neon-teal"
   }, {
     icon: Mail,
-    href: "mailto:hello@example.com",
+    href: "mailto:akhil.mekala8410@gmail.com",
     label: "Email",
     color: "hover:text-neon-purple"
-  }, {
-    icon: Phone,
-    href: "tel:+1234567890",
-    label: "Phone",
-    color: "hover:text-neon-green"
   }];
 
   return <section className="min-h-screen flex items-center section-padding pt-24">
@@ -47,8 +42,8 @@ export const HeroSection = () => {
           <div className="space-y-8 animate-slide-in-left">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-bold">
-                <span className="text-gradient">Akhil</span>{" "}
-                <span className="text-white">Mekala</span>
+                <span className="text-gradient">Mekala</span>{" "}
+                <span className="text-white">Akhil</span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-neon-teal font-medium">Web Developer | AI Enthusiast</h2>
               <p className="text-lg lg:text-xl text-gray-300 max-w-2xl leading-relaxed">I'm passionate about building innovative web applications and exploring new technologies to tackle real-world problems. I love crafting digital experiences that seamlessly blend creativity with cutting-edge technology, delivering impactful solutions and engaging user experiences.</p>
@@ -84,7 +79,7 @@ export const HeroSection = () => {
               </div>
               
               {/* Social handles positioned around the image */}
-              <div className="absolute -left-16 top-1/2 -translate-y-1/2 flex flex-col space-y-4">
+              <div className="absolute -left-16 top-1/2 -translate-y-1/2 flex flex-col space-y-3">
                 {socialLinks.map(({
                 icon: Icon,
                 href,

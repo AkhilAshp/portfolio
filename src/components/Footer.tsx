@@ -5,9 +5,9 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:alex.johnson@email.com", label: "Email" }
+    { icon: Github, href: "https://github.com/AkhilAshp", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/akhil-mekala-jntu2k5/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:akhil.mekala8410@gmail.com", label: "Email" }
   ];
 
   return (
@@ -16,7 +16,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Copyright */}
           <div className="text-gray-400 text-center md:text-left">
-            <p>&copy; {currentYear} Alex Johnson. All rights reserved.</p>
+            <p>&copy; {currentYear} Mekala Akhil. All rights reserved.</p>
             <p className="text-sm mt-1">Built with ❤️ using React & Tailwind CSS</p>
           </div>
 

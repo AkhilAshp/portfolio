@@ -4,28 +4,28 @@ import { GraduationCap, Award, BookOpen } from "lucide-react";
 export const EducationSection = () => {
   const education = [
     {
-      degree: "B.Tech in Computer Science",
-      institution: "Tech University",
-      duration: "2018 - 2022",
-      description: "Specialized in Software Engineering and AI/ML",
+      degree: "B.Tech in Computer Science & Engineering",
+      institution: "JNTUH University College of Engineering,Science and Technology Hyderabad",
+      duration: "2022 - 2026",
+      description: "CGPA : 8.80",
       icon: <GraduationCap className="h-8 w-8" />
     },
     {
-      degree: "Intermediate (12th Grade)",
-      institution: "Excellence High School",
-      duration: "2016 - 2018",
-      description: "Mathematics, Physics, Computer Science",
+      degree: "Intermediate Education (MPC)",
+      institution: "Sri Chaitanya Junior Kalasala, Hyderabad",
+      duration: "2020 - 2022",
+      description: "Boards: 97.5%",
       icon: <BookOpen className="h-8 w-8" />
     }
   ];
 
-  const achievements = [
-    "Dean's List for Academic Excellence (2020-2022)",
-    "Winner - University Hackathon 2021",
-    "Published Research Paper on ML Optimization",
-    "AWS Certified Solutions Architect",
-    "Google Cloud Professional Developer"
-  ];
+  // const achievements = [
+  //   "Dean's List for Academic Excellence (2020-2022)",
+  //   "Winner - University Hackathon 2021",
+  //   "Published Research Paper on ML Optimization",
+  //   "AWS Certified Solutions Architect",
+  //   "Google Cloud Professional Developer"
+  // ];
 
   return (
     <section id="education" className="section-padding">
@@ -65,7 +65,7 @@ export const EducationSection = () => {
           ))}
         </div>
 
-        {/* Achievements */}
+        {/* Achievements
         <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <h3 className="text-3xl font-bold text-center mb-12">
             <span className="text-gradient flex items-center justify-center gap-3">
@@ -89,7 +89,7 @@ export const EducationSection = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

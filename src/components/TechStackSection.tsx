@@ -1,23 +1,26 @@
 
 export const TechStackSection = () => {
   const technologies = [
-    { name: "JavaScript", icon: "🟨", category: "Language" },
-    { name: "TypeScript", icon: "🔷", category: "Language" },
-    { name: "Python", icon: "🐍", category: "Language" },
-    { name: "React", icon: "⚛️", category: "Frontend" },
-    { name: "Next.js", icon: "▲", category: "Frontend" },
-    { name: "Vue.js", icon: "💚", category: "Frontend" },
-    { name: "Node.js", icon: "🟢", category: "Backend" },
-    { name: "Express", icon: "🚀", category: "Backend" },
-    { name: "MongoDB", icon: "🍃", category: "Database" },
-    { name: "PostgreSQL", icon: "🐘", category: "Database" },
-    { name: "Docker", icon: "🐳", category: "DevOps" },
-    { name: "AWS", icon: "☁️", category: "Cloud" },
-    { name: "TensorFlow", icon: "🧠", category: "AI/ML" },
-    { name: "PyTorch", icon: "🔥", category: "AI/ML" },
-    { name: "OpenAI", icon: "🤖", category: "AI/ML" },
-    { name: "Git", icon: "📝", category: "Tools" }
-  ];
+  { name: "HTML", icon: "📄", category: "Frontend" },
+  { name: "React", icon: "⚛️", category: "Frontend" },
+  { name: "MongoDB", icon: "🍃", category: "Database" },
+  { name: "JavaScript", icon: "🟨", category: "Language" },
+  { name: "Java", icon: "☕", category: "Language" },
+  { name: "CSS (Tailwind)", icon: "🌬️", category: "Frontend" },
+  { name: "ShadCN", icon: "✨", category: "Frontend" },
+  
+  { name: "TypeScript", icon: "🔷", category: "Language" },
+  { name: "Python", icon: "🐍", category: "Language" },
+  
+  
+  { name: "Next.js", icon: "▲", category: "Frontend" },
+  { name: "Node.js", icon: "🟢", category: "Backend" },
+  { name: "SQL", icon: "🗄️", category: "Database" },
+  { name: "MySQL", icon: "🐬", category: "Database" },
+  
+  { name: "Git", icon: "📝", category: "Tools" }
+];
+
 
   return (
     <section id="tech-stack" className="section-padding bg-dark-card/10">

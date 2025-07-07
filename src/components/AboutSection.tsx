@@ -10,22 +10,17 @@ export const AboutSection = () => {
           
           <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
             <p>
-              I'm a passionate full-stack developer with a deep fascination for artificial intelligence 
-              and machine learning. My journey in tech spans several years, during which I've honed my 
-              skills in creating robust, scalable applications and exploring the frontiers of AI technology.
+              I'm passionate about software development and emerging technologies and a growing interest in Machine Learning and AI tools. 
+              Beyond web technologies, I'm keen on exploring how AI can enhance applications and solve real-world problems.
             </p>
             
             <p>
-              When I'm not coding, you'll find me experimenting with new AI models, contributing to open-source 
-              projects, or sharing knowledge with the developer community. I believe in the power of technology 
-              to solve real-world problems and create meaningful impact.
+              My goal is to bridge the gap between traditional development and intelligent 
+              systems, leveraging both my coding skills and curiosity for emerging tech 
+              to build impactful projects. I thrive on challenges and believe in continuous 
+              learning through hands-on experience and collaboration. Whether working independently or as part of a team, 
+              I'm driven by the excitement of turning ideas into innovative solutions.
             </p>
-            
-            <div className="bg-gradient-card rounded-2xl p-6 mt-8 border border-neon-teal/20">
-              <p className="text-neon-teal font-medium">
-                💡 Fun Fact: I've built over 50 web applications and contributed to 3 open-source AI projects!
-              </p>
-            </div>
           </div>
         </div>
       </div>

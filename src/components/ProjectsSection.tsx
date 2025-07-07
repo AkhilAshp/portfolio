@@ -5,59 +5,24 @@ import { Github, ExternalLink } from "lucide-react";
 export const ProjectsSection = () => {
   const projects = [
     {
-      name: "AI Chat Assistant",
-      type: "AI Project",
-      description: "A sophisticated chatbot powered by OpenAI's GPT model with custom knowledge base integration and real-time responses.",
-      technologies: ["React", "Node.js", "OpenAI API", "MongoDB"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-      featured: true
+      name: "AI Online Learning Platform",
+      type: "Web Development",
+      description: "Responsive web app that fetches and displays real-time weather data for any city.",
+      technologies: ["React", "Material UI", "OpenWeather API"],
+      github: "https://github.com/AkhilAshp/weather-app",
+      demo: "https://weather-gg52d5ipu-akhil-mekalas-projects.vercel.app/",
+      featured: false
     },
     {
-      name: "E-Commerce Platform",
+      name: "Weather App",
       type: "Web Development",
-      description: "Full-stack e-commerce solution with payment integration, inventory management, and advanced analytics dashboard.",
+      description: "Responsive web app that fetches and displays real-time weather data for any city.",
       technologies: ["Next.js", "PostgreSQL", "Stripe", "AWS"],
       github: "https://github.com",
       demo: "https://demo.com",
       featured: true
     },
-    {
-      name: "Task Management App",
-      type: "Web Development",
-      description: "Collaborative project management tool with real-time updates, team chat, and progress tracking features.",
-      technologies: ["Vue.js", "Express", "Socket.io", "MongoDB"],
-      github: "https://github.com",
-      demo: null,
-      featured: false
-    },
-    {
-      name: "ML Image Classifier",
-      type: "AI Project",
-      description: "Deep learning model for image classification with 95% accuracy, deployed as a web service with REST API.",
-      technologies: ["Python", "TensorFlow", "Flask", "Docker"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-      featured: false
-    },
-    {
-      name: "Portfolio Website",
-      type: "Web Development",
-      description: "Modern, responsive portfolio website with dark mode, smooth animations, and contact form integration.",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-      featured: false
-    },
-    {
-      name: "Cryptocurrency Tracker",
-      type: "Web Development",
-      description: "Real-time crypto price tracker with portfolio management, price alerts, and market analysis tools.",
-      technologies: ["React", "Chart.js", "CoinGecko API", "Firebase"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-      featured: false
-    }
+    
   ];
 
   return (
