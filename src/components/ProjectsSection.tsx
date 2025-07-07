@@ -5,15 +5,6 @@ import { Github, ExternalLink } from "lucide-react";
 export const ProjectsSection = () => {
   const projects = [
     {
-      name: "Weather App",
-      type: "Web Development",
-      description: "Responsive web app that fetches and displays real-time weather data for any city.",
-      technologies: ["React", "Material UI", "OpenWeather API"],
-      github: "https://github.com/AkhilAshp/weather-app",
-      demo: "https://weather-gg52d5ipu-akhil-mekalas-projects.vercel.app/",
-      featured: false
-    },
-    {
       name: "AI Online Learning App",
       type: "Web Development",
       description: "AI-powered platform that builds custom course structures based on topic difficulty, number of chapters, and content type (text and/or YouTube videos). Includes modular learning paths and visual progress tracking per topic.",
@@ -22,6 +13,16 @@ export const ProjectsSection = () => {
       demo: "https://online-learning-platform-nu.vercel.app",
       featured: true
     },
+    {
+      name: "Weather App",
+      type: "Web Development",
+      description: "Responsive web app that fetches and displays real-time weather data for any city.",
+      technologies: ["React", "Material UI", "OpenWeather API"],
+      github: "https://github.com/AkhilAshp/weather-app",
+      demo: "https://weather-gg52d5ipu-akhil-mekalas-projects.vercel.app/",
+      featured: false
+    },
+    
     
   ];
 
