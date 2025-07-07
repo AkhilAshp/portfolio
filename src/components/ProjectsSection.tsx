@@ -5,7 +5,7 @@ import { Github, ExternalLink } from "lucide-react";
 export const ProjectsSection = () => {
   const projects = [
     {
-      name: "AI Online Learning Platform",
+      name: "Weather App",
       type: "Web Development",
       description: "Responsive web app that fetches and displays real-time weather data for any city.",
       technologies: ["React", "Material UI", "OpenWeather API"],
@@ -14,12 +14,12 @@ export const ProjectsSection = () => {
       featured: false
     },
     {
-      name: "Weather App",
+      name: "AI Online Learning App",
       type: "Web Development",
-      description: "Responsive web app that fetches and displays real-time weather data for any city.",
+      description: "AI-powered platform that builds custom course structures based on topic difficulty, number of chapters, and content type (text and/or YouTube videos). Includes modular learning paths and visual progress tracking per topic.",
       technologies: ["Next.js", "PostgreSQL", "Stripe", "AWS"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/AkhilAshp/online-learning-platform",
+      demo: "https://online-learning-platform-nu.vercel.app",
       featured: true
     },
     
