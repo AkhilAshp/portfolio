@@ -11,7 +11,7 @@ export const ProjectsSection = () => {
       technologies: ["Next.js", "Tailwind CSS,", "NeonDb", "Gemini AI"],
       github: "https://github.com/AkhilAshp/online-learning-platform",
       demo: "https://online-learning-platform-nu.vercel.app",
-      featured: true
+      featured: false
     },
     {
       name: "Weather App",
