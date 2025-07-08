@@ -8,7 +8,7 @@ export const ProjectsSection = () => {
       name: "AI Online Learning App",
       type: "Web Development",
       description: "AI-powered platform that builds custom course structures based on topic difficulty, number of chapters, and content type (text and/or YouTube videos). Includes modular learning paths and visual progress tracking per topic.",
-      technologies: ["Next.js", "PostgreSQL", "Stripe", "AWS"],
+      technologies: ["Next.js", "Tailwind CSS,", "NeonDb", "Gemini AI"],
       github: "https://github.com/AkhilAshp/online-learning-platform",
       demo: "https://online-learning-platform-nu.vercel.app",
       featured: true
@@ -22,8 +22,6 @@ export const ProjectsSection = () => {
       demo: "https://weather-gg52d5ipu-akhil-mekalas-projects.vercel.app/",
       featured: false
     },
-    
-    
   ];
 
   return (
