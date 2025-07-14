@@ -11,7 +11,7 @@ export const HeroSection = () => {
   const downloadResume = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=1xUIC7RmNMUg8sJouARrbHOLeXD4WJ';
+    link.href = 'https://drive.google.com/uc?export=download&id=1sh9-pQmlKi57-cVCpZJvK7XZh8fvQU1y';
 
     link.download = 'Akhil_Mekala_Resume.pdf'; // Name for the downloaded file
     document.body.appendChild(link);
