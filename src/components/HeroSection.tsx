@@ -11,7 +11,7 @@ export const HeroSection = () => {
   const downloadResume = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=1sh9-pQmlKi57-cVCpZJvK7XZh8fvQU1y';
+    link.href = 'https://drive.google.com/uc?export=download&id=18qL6aRF2y5qOFvK9BPgiarVRSbRLKXeb';
 
     link.download = 'Akhil_Mekala_Resume.pdf'; // Name for the downloaded file
     document.body.appendChild(link);
@@ -41,7 +41,7 @@ export const HeroSection = () => {
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left side - Text content */}
-          <div className="space-y-6 md:space-y-8 animate-slide-in-left text-center lg:text-left order-1 lg:order-1">
+          <div className="space-y-6 md:space-y-8 animate-slide-in-left text-center lg:text-left order-2 lg:order-1">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
                 
@@ -85,7 +85,7 @@ export const HeroSection = () => {
             </div>
           </div>
           {/* Right side - Profile image and social handles */}
-          <div className="flex flex-col items-center animate-slide-in-right order-2 lg:order-2 space-y-6">
+          <div className="flex flex-col items-center animate-slide-in-right order-1 lg:order-2 space-y-6">
             {/* Profile Image */}
             <div className="relative mt-16 lg:mt-0 sm:mt-8">
               <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-neon-teal via-neon-blue to-neon-purple p-1 animate-glow-pulse">

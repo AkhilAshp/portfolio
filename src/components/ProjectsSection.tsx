@@ -5,10 +5,21 @@ import { Github, ExternalLink } from "lucide-react";
 export const ProjectsSection = () => {
   const projects = [
     {
+      name: "WanderLust",
+      type: "Web Development",
+      description:
+        "Full-stack rental app where users can add, view, and manage property listings. Includes responsive forms with client-side validation and server checks using Joi, styled with Bootstrap. Backend built with reusable middleware and API routes with clear error handling.",
+      technologies: ["Node.js", "Express", "MongoDB", "EJS", "Bootstrap", "Joi"],
+      github: "https://github.com/AkhilAshp/WanderLust", // update if needed
+      demo: "https://wanderlust-production.up.railway.app", // update if needed
+      featured: false
+    },
+    {
       name: "AI Online Learning App",
       type: "Web Development",
-      description: "AI-powered platform that builds custom course structures based on topic difficulty, number of chapters, and content type (text and/or YouTube videos). Includes modular learning paths and visual progress tracking per topic.",
-      technologies: ["Next.js", "Tailwind CSS,", "NeonDb", "Gemini AI"],
+      description:
+        "AI-powered platform that builds custom course structures based on topic difficulty, number of chapters, and content type (text and/or YouTube videos). Includes modular learning paths and visual progress tracking per topic.",
+      technologies: ["Next.js", "Tailwind CSS", "NeonDb", "Gemini AI"],
       github: "https://github.com/AkhilAshp/online-learning-platform",
       demo: "https://online-learning-platform-nu.vercel.app",
       featured: false
@@ -16,12 +27,13 @@ export const ProjectsSection = () => {
     {
       name: "Weather App",
       type: "Web Development",
-      description: "Responsive web app that fetches and displays real-time weather data for any city.",
+      description:
+        "Responsive web app that fetches and displays real-time weather data for any city.",
       technologies: ["React", "Material UI", "OpenWeather API"],
       github: "https://github.com/AkhilAshp/weather-app",
       demo: "https://weather-gg52d5ipu-akhil-mekalas-projects.vercel.app/",
       featured: false
-    },
+    }
   ];
 
   return (
@@ -88,7 +100,7 @@ export const ProjectsSection = () => {
                   </a>
                 </Button>
                 
-                {project.demo && (
+                {project.demo && project.name !== "WanderLust" && (
                   <Button
                     size="sm"
                     className="bg-neon-teal hover:bg-neon-blue text-white"

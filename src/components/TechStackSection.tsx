@@ -1,26 +1,20 @@
-
 export const TechStackSection = () => {
   const technologies = [
-  { name: "HTML", icon: "📄", category: "Frontend" },
-  { name: "React", icon: "⚛️", category: "Frontend" },
-  { name: "MongoDB", icon: "🍃", category: "Database" },
-  { name: "JavaScript", icon: "🟨", category: "Language" },
-  { name: "Java", icon: "☕", category: "Language" },
-  { name: "CSS (Tailwind)", icon: "🌬️", category: "Frontend" },
-  { name: "ShadCN", icon: "✨", category: "Frontend" },
-  
-  { name: "TypeScript", icon: "🔷", category: "Language" },
-  { name: "Python", icon: "🐍", category: "Language" },
-  
-  
-  { name: "Next.js", icon: "▲", category: "Frontend" },
-  { name: "Node.js", icon: "🟢", category: "Backend" },
-  { name: "SQL", icon: "🗄️", category: "Database" },
-  { name: "MySQL", icon: "🐬", category: "Database" },
-  
-  { name: "Git", icon: "📝", category: "Tools" }
-];
-
+    { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+    { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+    { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+    { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+    { name: "CSS (Tailwind)", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+    { name: "ShadCN", icon: "https://ui.shadcn.com/favicon.ico" },
+    { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+    { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+    { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+    { name: "SQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+    { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+    { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" }
+  ];
 
   return (
     <section id="tech-stack" className="section-padding bg-dark-card/10">
@@ -29,37 +23,18 @@ export const TechStackSection = () => {
           <span className="text-gradient">Tech Stack</span>
         </h2>
 
-        <div className="relative overflow-hidden">
-          {/* Scrollable container */}
-          <div className="flex gap-6 animate-fade-in pb-6 overflow-x-auto scrollbar-thin scrollbar-thumb-neon-teal scrollbar-track-dark-card">
-            {technologies.map((tech, index) => (
-              <div 
-                key={index}
-                className="flex-shrink-0 group"
-              >
-                <div className="bg-gradient-card rounded-2xl p-6 border glow-border hover:glow-border-hover transition-all duration-300 hover:scale-110 min-w-[160px] text-center">
-                  <div className="text-4xl mb-3 group-hover:scale-125 transition-transform duration-300">
-                    {tech.icon}
-                  </div>
-                  <h3 className="text-white font-semibold text-lg mb-1">
-                    {tech.name}
-                  </h3>
-                  <p className="text-gray-400 text-sm">
-                    {tech.category}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Gradient overlays for fade effect */}
-          <div className="absolute left-0 top-0 bottom-6 w-8 bg-gradient-to-r from-dark-bg to-transparent pointer-events-none"></div>
-          <div className="absolute right-0 top-0 bottom-6 w-8 bg-gradient-to-l from-dark-bg to-transparent pointer-events-none"></div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5  gap-6">
+          {technologies.map((tech, index) => (
+            <div
+              key={index}
+              className="bg-gradient-card rounded-2xl p-6 border glow-border hover:glow-border-hover transition-all duration-300 animate-fade-in flex flex-col items-center text-center hover:scale-105"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <img src={tech.icon} alt={tech.name} className="w-12 h-12 mb-3" />
+              <span className="text-sm text-white font-medium">{tech.name}</span>
+            </div>
+          ))}
         </div>
-
-        <p className="text-center text-gray-400 mt-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          Scroll horizontally to explore more technologies →
-        </p>
       </div>
     </section>
   );
