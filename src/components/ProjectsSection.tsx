@@ -18,7 +18,7 @@ export const ProjectsSection = () => {
       name: "Credit Card Customer Segmentation",
       type: "Machine Learning",
       description:
-        "Machine learning system to segment credit card customers into behavioral and risk-based groups. Achieved a silhouette score of 0.57, enabling actionable insights for targeted marketing, credit optimization, and fraud detection.",
+        "Machine learning system to segment credit card customers into behavioral and risk-based groups. Achieved a silhouette score of 0.63, enabling actionable insights for targeted marketing, credit optimization, and fraud detection.",
       technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
       github: "", // add if you have a repo
       demo: "",
