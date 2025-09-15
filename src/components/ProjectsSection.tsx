@@ -15,6 +15,17 @@ export const ProjectsSection = () => {
       featured: false
     },
     {
+  name: "Insurance Customer Segmentation",
+  type: "Data Science / Machine Learning",
+  description:
+    "Segmented insurance customers into meaningful groups and identified outliers for risk assessment. Applied dimensionality reduction, clustering, and evaluation metrics to generate actionable business insights for targeted marketing and customer profiling.",
+  technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+  github: "https://github.com/yourusername/insurance-segmentation", // update if available
+  demo: "", // optional, leave blank if no live demo
+  featured: false
+}
+,
+    {
       name: "Credit Card Customer Segmentation",
       type: "Machine Learning",
       description:
