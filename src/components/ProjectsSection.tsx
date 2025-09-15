@@ -5,16 +5,6 @@ import { Github, ExternalLink } from "lucide-react";
 export const ProjectsSection = () => {
   const projects = [
     {
-      name: "WanderLust",
-      type: "Web Development",
-      description:
-        "Full-stack rental app where users can add, view, and manage property listings. Includes responsive forms with client-side validation and server checks using Joi, styled with Bootstrap. Backend built with reusable middleware and API routes with clear error handling.",
-      technologies: ["Node.js", "Express", "MongoDB", "EJS", "Bootstrap", "Joi"],
-      github: "https://github.com/AkhilAshp/WanderLust", // update if needed
-      demo: "https://wanderlust-production.up.railway.app", // update if needed
-      featured: false
-    },
-    {
       name: "AI Online Learning App",
       type: "Web Development",
       description:
@@ -22,6 +12,36 @@ export const ProjectsSection = () => {
       technologies: ["Next.js", "Tailwind CSS", "NeonDb", "Gemini AI"],
       github: "https://github.com/AkhilAshp/online-learning-platform",
       demo: "https://online-learning-platform-nu.vercel.app",
+      featured: false
+    },
+    {
+      name: "Credit Card Customer Segmentation",
+      type: "Machine Learning",
+      description:
+        "Machine learning system to segment credit card customers into behavioral and risk-based groups. Achieved a silhouette score of 0.57, enabling actionable insights for targeted marketing, credit optimization, and fraud detection.",
+      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      github: "", // add if you have a repo
+      demo: "",
+      featured: false
+    },
+    {
+      name: "Diabetes Predictor",
+      type: "Machine Learning",
+      description:
+        "ML model that predicts diabetes risk with 85% accuracy using patient health metrics. Includes feature scaling, model training, evaluation, and patient outcome prediction.",
+      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
+      github: "", // add if you have a repo
+      demo: "",
+      featured: false
+    },
+    {
+      name: "WanderLust",
+      type: "Web Development",
+      description:
+        "Full-stack rental app where users can add, view, and manage property listings. Includes responsive forms with client-side validation and server checks using Joi, styled with Bootstrap. Backend built with reusable middleware and API routes with clear error handling.",
+      technologies: ["Node.js", "Express", "MongoDB", "EJS", "Bootstrap", "Joi"],
+      github: "https://github.com/AkhilAshp/WanderLust",
+      demo: "https://wanderlust-production.up.railway.app",
       featured: false
     },
     {
@@ -35,6 +55,8 @@ export const ProjectsSection = () => {
       featured: false
     }
   ];
+};
+
 
   return (
     <section id="projects" className="section-padding">
