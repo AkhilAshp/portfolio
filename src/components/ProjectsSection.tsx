@@ -55,7 +55,7 @@ export const ProjectsSection = () => {
       featured: false
     }
   ];
-};
+
 
 
   return (
