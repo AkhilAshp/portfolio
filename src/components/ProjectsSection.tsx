@@ -12,8 +12,26 @@ export const ProjectsSection = () => {
       technologies: ["Next.js", "Tailwind CSS", "NeonDb", "Gemini AI"],
       github: "https://github.com/AkhilAshp/online-learning-platform",
       demo: "https://online-learning-platform-nu.vercel.app",
-      featured: false
+      featured: true
     },
+    {
+  name: "PDF Notes Taker",
+  type: "Full Stack / AI Application",
+  description:
+    "AI-powered PDF note-taking platform that indexes uploaded documents and generates structured summaries. Includes an integrated PDF viewer, rich text editor for organizing notes, and secure user authentication, enabling users to efficiently study and extract insights from large PDFs.",
+  technologies: [
+    "Next.js",
+    "Google Generative AI",
+    "Tailwind CSS",
+    "Convex",
+    "Clerk",
+    "React"
+  ],
+  github: "https://github.com/AkhilAshp/ai-pdf-note-taker",
+  demo: "", // add live link later if deployed
+  featured: true
+},
+
     {
   name: "Insurance Customer Segmentation",
   type: "Data Science / Machine Learning",
